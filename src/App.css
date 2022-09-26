@@ -11,13 +11,16 @@ body {
 }
 
 .App {
-  height: 100%;
+  width: 1400px;
+  height: 900px;
   display: flex;
   flex-direction: column;
 }
 
 .header {
   height: 100px;
+  position: sticky;
+  top: 0;
 }
 
 .main {
@@ -32,7 +35,10 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .footer {
   flex: 0 1 auto;
   height: 50px;
+  position: sticky;
+  bottom: 0;
 }
